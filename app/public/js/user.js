@@ -32,7 +32,6 @@ const Offer = {
 
     methods: {
         fetchUserData() {
-            console.log("A");
             fetch('https://randomuser.me/api/')
             .then( response => response.json() )
             .then( (responseJson) => {
